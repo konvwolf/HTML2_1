@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Arial MT', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    min-width: 610px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.4);
+}
+
+header,
+footer {
+    background-color: #445162;
+}
+
+header,
+.about,
+.dignity,
+.screenshots,
+.reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    line-height: 60px;
+}
+
+h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    white-space: nowrap;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+header ul {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 19px;
+}
+
+.fa-check {
+    display: block;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.header_1,
+.about_1 {
+    max-width: 649px;
+}
+
+.header_2,
+.about_2 {
+    max-width: 469px;
+}
+
+.header_2 img,
+.about_2 img {
+    float: right;
+}
+
+.about_1 h2 {
+    margin-bottom: 30px;
+}
+
+.about_1 p {
+    margin-bottom: 20px;
+}
+
+.dignity,
+.reviews {
+    background-color: #f5f5f5;
+}
+
+.dignity h2,
+.screenshots h2,
+.reviews h2,
+.buy h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.dignity_block {
+    width: 50%;
+    margin-bottom: 39px;
+}
+
+.fa-plus-square {
+    font-size: 32px;
+    color: #445162;
+    display: block;
+    float: left;
+    height: 100%;
+    margin-right: 9px;
+}
+
+.screendiv {
+    width: 48%;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 15px 11px;
+}
+
+.screendiv img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.screendiv figcaption {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.review_div {
+    width: 47%;
+    margin: 12px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.review_div img {
+    border-radius: 50%;
+    margin-right: 16px;
+    width: 75px;
+    height: 75px;
+}
+
+.reviews_text {
+    background-color: #ebebeb;
+    border-radius: 5px;
+    width: 74%;
+    padding: 16px 20px;
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+}
+
+.reviews_text h4 {
+    color: #989898;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.fa-caret-left {
+    display: block;
+    font-size: 32px;
+    margin-top: 23px;
+    color: #ebebeb;
+    margin-right: -3px;
+}
+
+.buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 50px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+
+.option {
+    width: 300px;
+    background-color: #445162;
+    border: 2px solid #445161;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.option h3,
+.option h4 {
+    text-align: center;
+}
+
+.option h3 {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.option h4 {
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 71px;
+    background-color: white;
+    margin-bottom: 17px;
+}
+
+.option ol {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 87%;
+    height: 40px;
+    margin: 0 auto;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+button:active {
+    background-color: lightgrey;
+}
+
+.option_1 {
+    height: 47%;
+}
+
+.option_2 {
+    height: 61%;
+}
+
+.option_3 {
+    height: 76%;
+}
+
+footer {
+    padding: 50px 246px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 29px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+footer form {
+    width: 500px;
+    margin-right: 45px;
+}
+
+footer input:not([type="submit"]) {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-bottom: 21px;
+}
+
+footer textarea {
+    width: 502px;
+    height: 170px;
+    border-radius: 5px;
+    color: #445162;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-bottom: 21px;
+}
+
+footer input[type="submit"] {
+    width: 140px;
+    height: 40px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+footer input[type="submit"]:active {
+    background-color: lightgrey;
+}
+
+.contacts {
+    width: 230px;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts li {
+    display: block;
+    height: 26px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 42px;
+}
+
+.contacts li img {
+    margin-right: 5px;
+}
+
+.contacts li a {
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
+.contacts_icons {
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.social_links {
+    display: block;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.social_icons {
+    color: #445161;
+    font-size: 26px;
+}
+
+.copyright {
+    text-align: center;
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
